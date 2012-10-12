@@ -1,0 +1,11 @@
+
+digraph player
+{
+  player->health;
+  player->mana;
+  player->location;
+  player->appearance;
+  player->isAsleep;
+  player->inventory;
+  player->badassery;
+}

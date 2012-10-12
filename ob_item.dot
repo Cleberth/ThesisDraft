@@ -1,0 +1,10 @@
+
+digraph item
+{
+  item->weight;
+  item->edibility;
+  item->value;
+  item->harmfulness;
+  item->location;
+  item->appearance;
+}

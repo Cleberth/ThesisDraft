@@ -1,0 +1,9 @@
+
+digraph place
+{
+  place->climate;
+  place->destinations;
+  place->waterDepth;
+  place->stuffPresent;
+  place->description;
+}

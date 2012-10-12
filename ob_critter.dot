@@ -1,0 +1,7 @@
+digraph critter
+{
+  critter->location;
+  critter->health;
+  critter->appearance;
+  critter->threatitude;
+}
