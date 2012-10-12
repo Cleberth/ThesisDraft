@@ -1,0 +1,6 @@
+
+digraph world
+{
+  world->weather;
+  world->time;
+}

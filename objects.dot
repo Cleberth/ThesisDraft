@@ -1,0 +1,12 @@
+
+digraph objects
+{
+  node [shape=rectangle]
+  player;
+  place;
+  item;
+  world;
+  critter;
+  
+}
+
