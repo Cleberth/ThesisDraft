@@ -1,0 +1,67 @@
+#import <Foundation/Foundation.h>
+
+//Make and 'object' for a person. Give them abilities. (Health, Name, 
+Location/Movement //Look around them, ManaBar(Magicness), Hunting 
+ability, Ailments, Self Defense, inventory //Ability to pick up and drop 
+items, Ability to use items, Ability to Pick Items from //Inventory, 
+sleeping) //Health(int), Location(pointer), Lokking around(Char*), 
+Manabar(int), Hunting ability(?), //Ailment(Bool, can either be sick or 
+not, ailment==True means that some number is subtracted //from health. 
+Subtracted once? keeps subtracting? If so how often?), Defense(?), 
+//inventory(class of its own? Object pointer? should the character have 
+the ability //to drop and pick up items or should it be a function of 
+the item itself? Same with //useing an item...), Sleeping(Bool? If 
+Sleeping==True then something happens... Day //or Night switches to the 
+other? Time passes? Health is recovered a bit?) //When reaching Cliffs 
+or the Water they are able to decide whether to proceed or //stop. With 
+the Cliffs if they preceed they will fall off and may or may not die 
+depending //on how high the Cliff is. With the Water they can preceed 
+until the water is above their //heads and they can stay their for a 
+little while (maybe) before they die. //Character will be able to Hunt 
+animals and there may be some sort of determination //on whether it goes 
+successfully or not... Time of Day? Location? Animal population? 
+//Random number generator? Certain Number are Successful others are 
+not... If SuccessFul //Obtains Health(If Injured) and Furs for 
+trading....? //Able to get Sick. Perhaps from food, weather, location... 
+//Able to look around them and a scene will be described. Maybe even a 
+picture will //be displyed in some locations... //Ability to Defend 
+Themselves from attack? Effectiveness based on Location and Health. 
+//Possibility of attack based on location. Magic Useage based on Health. 
+//Ability to carry a certain amount of items. They will be able to pick 
+items and then //be prompted about what to do with their items. ... item 
+will have to disappear once //used...Unless reuseable...?? //May be able 
+to Control certain weather conditions (Rain, Windy...) //Sleeping as a 
+way to pass time? As a way to change Night to Day or Visa Versa? Can 
+//Sleep anyway... Might not want to. Could get sick... //World will have 
+Grass, trees, Bodies of Water, Cliffs, Other People, Animals, Weather 
+//changes (Can rain, snow, be Sunny, Night/Day (On timer? 
+Distance-based), Windy), //fruit and vegetable and other foods/drinks, 
+Mountains, Buildings (Castles? Cottages? //Inns?, Markets?), Temperature 
+(For weather?? (Makes Character Sick or not...)) using namespace std; 
+class character {
+    Char* name;
+    int health;
+    room* location;
+    Char* lookAround;
+    int manabar;
+    bool ailment;
+    bool sleeping;
+    carryItem* inventory;
+    //self-defense ?
+    //hunting ?
+}
+class room {
+    room* goEast;
+    room* goWest;
+    room* goSouth;
+    room* goNorth;
+    room* goDennis;
+}
+class carryItem {
+    //use
+    //pickup/add to inventory
+    //drop
+}
+/*class environmentalItem {
+    //Do I need this?
+}*/
