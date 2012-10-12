@@ -38,7 +38,11 @@ Grass, trees, Bodies of Water, Cliffs, Other People, Animals, Weather
 Distance-based), Windy), //fruit and vegetable and other foods/drinks, 
 Mountains, Buildings (Castles? Cottages? //Inns?, Markets?), Temperature 
 (For weather?? (Makes Character Sick or not...)) using namespace std; 
-class character {
+
+!! Now on GitHub !!
+
+class character 
+{
     Char* name;
     int health;
     room* location;
@@ -50,6 +54,7 @@ class character {
     //self-defense ?
     //hunting ?
 }
+
 class room {
     room* goEast;
     room* goWest;
@@ -57,11 +62,13 @@ class room {
     room* goNorth;
     room* goDennis;
 }
+
 class carryItem {
     //use
     //pickup/add to inventory
     //drop
 }
+
 /*class environmentalItem {
     //Do I need this?
 }*/
